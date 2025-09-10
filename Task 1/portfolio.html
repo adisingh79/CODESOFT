@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <header id="header" class="hero fade-in">
+    <h1 class="text-5xl font-bold mb-6 typing-effect">Jane Smith</h1>
+    <p class="text-xl max-w-2xl mx-auto">Creative Web Developer passionate about crafting beautiful, user-friendly experiences</p>
+  </header>
+
+  <section id="about" class="about-container fade-in">
+    <h2 class="text-4xl font-semibold mb-12">About Me</h2>
+    <img src= "image.jpg" alt="Aditya image" class="about-img mb-8">
+    <p class="text-lg text-gray-800 max-w-3xl leading-relaxed">
+      Hi there! I'm Jane Smith, a dedicated web developer with a flair for design. With expertise in front-end technologies like HTML, CSS, and JavaScript, along with frameworks such as React and Angular, I bring ideas to life through clean, efficient code. My journey in web development started 4 years ago, and since then, I've collaborated on diverse projects ranging from e-commerce sites to interactive web apps. When not coding, you'll find me sketching UI designs, exploring nature, or mentoring aspiring developers.
+    </p>
+  </section>
+  <section id="skills" class="py-20 px-8 bg-white fade-in">
+    <div class="container mx-auto max-w-5xl">
+      <h2 class="text-4xl font-semibold mb-12 text-center">Skills & Expertise</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div class="skill-card">
+          <h3 class="text-xl font-semibold mb-2">HTML/CSS</h3>
+          <p class="text-gray-600">Semantic markup and responsive design</p>
+        </div>
+        <div class="skill-card">
+          <h3 class="text-xl font-semibold mb-2">JavaScript</h3>
+          <p class="text-gray-600">ES6+, DOM manipulation, APIs</p>
+        </div>
+        <div class="skill-card">
+          <h3 class="text-xl font-semibold mb-2">React</h3>
+          <p class="text-gray-600">Component-based architecture, hooks</p>
+        </div>
+        <div class="skill-card">
+          <h3 class="text-xl font-semibold mb-2">Node.js</h3>
+          <p class="text-gray-600">Backend development, RESTful APIs</p>
+        </div>
+        <div class="skill-card">
+          <h3 class="text-xl font-semibold mb-2">UI/UX Design</h3>
+          <p class="text-gray-600">User-centered design principles</p>
+        </div>
+        <div class="skill-card">
+          <h3 class="text-xl font-semibold mb-2">Git</h3>
+          <p class="text-gray-600">Version control and collaboration</p>
+        </div>
+        <div class="skill-card">
+          <h3 class="text-xl font-semibold mb-2">Responsive Design</h3>
+          <p class="text-gray-600">Mobile-first approach</p>
+        </div>
+        <div class="skill-card">
+          <h3 class="text-xl font-semibold mb-2">Project Management</h3>
+          <p class="text-gray-600">Agile methodologies, scrum</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="py-20 px-8 bg-gray-50 fade-in">
+    <div class="container mx-auto max-w-6xl">
+      <h2 class="text-4xl font-semibold mb-12 text-center">Featured Projects</h2>
+      <div class="project-grid">
+        <div class="project-item">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/cac446a1-6f53-4fb7-b55f-920989915585.png" alt="Modern eco-friendly online store interface with green-themed product carousel, sustainable item listings, eco-icons, and a clean navigation bar using earth tones like green, brown, and white" class="project-img">
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-3">Eco-Commerce Platform</h3>
+            <p class="text-gray-700 mb-4">A sustainable e-commerce site built with React and Node.js, featuring carbon footprint calculator and eco-product recommendations.</p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+        <div class="project-item">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/bd3e8dc0-949b-48ba-bdb8-e4454e32b4a8.png" alt="Minimalist blog template with header image of a typewriter, feature article sections, vertical sidebar, and footer with social links, styled in monochromatic black and white with elegant typography" class="project-img">
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-3">Creative Blog Template</h3>
+            <p class="text-gray-700 mb-4">Customizable blogging platform using static site generators, with SEO optimization and fast loading times.</p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+        <div class="project-item">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/302d8071-5f54-4a5c-b4a3-32470c368243.png" alt="Interactive data visualization dashboard with charts, graphs, and filters showing global population trends, using color-coded maps and bar charts in a sleek dark-themed interface" class="project-img">
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-3">Data Visualization App</h3>
+            <p class="text-gray-700 mb-4">Dynamic charts and graphs using D3.js and React, perfect for business intelligence and educational purposes.</p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="resume" class="py-20 px-8 bg-white text-center fade-in">
+    <h2 class="text-4xl font-semibold mb-8">Resume</h2>
+    <p class="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">Ready to know more? Download my comprehensive resume to see my full experience and qualifications.</p>
+    <a href="#" class="btn">Download Resume PDF</a>
+  </section>
+  <section id="contact" class="py-20 px-8 bg-gray-50 text-center fade-in">
+    <h2 class="text-4xl font-semibold mb-12">Get In Touch</h2>
+    <p class="text-xl text-gray-800 mb-6">Let's connect and discuss exciting projects!</p>
+    <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+      <div>
+        <h3 class="text-2xl font-semibold mb-4">Email</h3>
+        <p class="text-lg">jane.smith@email.com</p>
+      </div>
+      <div>
+        <h3 class="text-2xl font-semibold mb-4">Phone</h3>
+        <p class="text-lg">(555) 123-4567</p>
+      </div>
+      <div>
+        <h3 class="text-2xl font-semibold mb-4">Location</h3>
+        <p class="text-lg">San Francisco, CA</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p class="text-2xl font-semibold mb-4">© 2023 Jane Smith. All Rights Reserved.</p>
+    <p>Follow me for updates: 
+      <a href="#" class="underline hover:text-purple-400">LinkedIn</a> | 
+      <a href="#" class="underline hover:text-purple-400">GitHub</a> | 
+      <a href="#" class="underline hover:text-purple-400">Twitter</a>
+    </p>
+  </footer>
+  <script>
+    // Fade-in animation on scroll
+    const observerOptions = {
+      threshold: 0.1
+    };
+    const observer = new IntersectionObserver(function(entries) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+        }
+      });
+    }, observerOptions);
+    const fadeElements = document.querySelectorAll('.fade-in');
+    fadeElements.forEach(el => observer.observe(el));
+    // Typing effect for header
+    const typingText = document.querySelector('.typing-effect');
+    let i = 0;
+    const txt = 'Jane Smith';
+    const speed = 200;
+    function typeWriter() {
+      if (i < txt.length) {
+        typingText.innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      } else {
+        typingText.classList.remove('typing-effect');
+      }
+    }
+    setTimeout(typeWriter, 1000);
+  </script>
+</body>
+</html>

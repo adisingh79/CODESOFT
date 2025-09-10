@@ -1,0 +1,99 @@
+body {
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.7;
+      background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+    }
+    .hero {
+      background: radial-gradient(circle, #6c5ce7, #a29bfe, #fd79a8);
+      color: white;
+      padding: 5rem 2rem;
+      text-align: center;
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    }
+    .about-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    .about-img {
+      max-width: 350px;
+      border-radius: 50%;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .about-img:hover {
+      transform: scale(1.05);
+    }
+    .skill-card {
+      background: white;
+      border-radius: 15px;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: all 0.3s;
+    }
+    .skill-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    .project-item {
+      background: white;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: all 0.3s;
+    }
+    .project-item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    }
+    .project-img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .btn {
+      display: inline-block;
+      background: linear-gradient(45deg, #6c5ce7, #fd79a8);
+      color: white;
+      padding: 0.8rem 2rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s;
+    }
+    .btn:hover {
+      background: linear-gradient(45deg, #fd79a8, #6c5ce7);
+      transform: scale(1.1);
+    }
+    footer {
+      background: #2d3436;
+      color: white;
+      text-align: center;
+      padding: 3rem 2rem;
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 1s ease;
+    }
+    .fade-in.in-view {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .typing-effect {
+      border-right: 2px solid;
+      animation: blink-caret 1s step-end infinite;
+    }
+    @keyframes blink-caret {
+      from, to { border-color: transparent; }
+      50% { border-color: white; }
+    }
